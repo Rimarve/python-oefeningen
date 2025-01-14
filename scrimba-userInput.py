@@ -1,10 +1,15 @@
-# naam = input("Wat is mijn naam?: ")
+naam = input("Wat is mijn naam?: ")
 # leeftijd = input("Wat is mijn leeftijd?: ")
 
 # print("Hoi " + naam + "! Jij bent " + leeftijd + " jaar oud!")
+# caps = naam.capitalize()
+
+kilometer = input("Aantal kilometers: ")
+# num2 = input("Tweede getal: ")
+miles = float(kilometer) * 1.609
+
+print(f"Je naam is: {naam.upper()}")
+print("Aantal kilometer ingevoerd: ", kilometer)
+print(f"{kilometer}km x 1.609 = {miles}mi")
 
 
-num1 = input("Eerste getal: ")
-num2 = input("Tweede getal: ")
-antwoord = float(num1) + float(num2)
-print(antwoord)
