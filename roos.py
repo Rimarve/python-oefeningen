@@ -13,6 +13,8 @@ groet("Rimar")
 
 def dtg(target_dtg):
 	delta = target_dtg - nu
+
+	# print(type(delta)) # delta is het verschil tussen target_dtg (datum tijd groep) en nu
 	
 	# reken dagen, uren en minuten uit
 	days = delta.days
