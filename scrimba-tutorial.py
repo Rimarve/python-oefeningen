@@ -18,7 +18,7 @@ worst_day = min(sales_total)
 stuks = "stuk" if worst_day == 1 else "stuks"
 
 
-totaal_verdiend = sum(sales_total) * 1.50
+totaal_verdiend = sum(sales_total) * 1.50	
 
 print(f"Er zijn in totaal {sum(sales_total)} limonades verkocht. De beste dag was {best_day} stuks en de minste dag was {worst_day} {stuks}.")
 print(f"Je hebt in totaal € {totaal_verdiend} verdiend.")
