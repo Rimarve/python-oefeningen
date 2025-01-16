@@ -3,8 +3,17 @@
 # you may need to run same command several times
 # use print() statements to work your way through the exercise
 
+
+# import re
+# zelf verzonnen 
+
 csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
-friends_list = ['Exercise: fill me with names']
+friends_list = []
 # print(friends_list)
 
-print(csv.split())
+x = csv.replace(":", ",")
+
+# re.split(", |; | :", csv)
+
+print(x)
+print()
