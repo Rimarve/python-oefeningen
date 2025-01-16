@@ -10,10 +10,17 @@
 csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
 friends_list = []
 # print(friends_list)
-
-x = csv.replace(":", ",")
-
+print('csv is:', type(csv))
+# x = csv.replace(":", ",")
+# y = x.replace(";", ",")
 # re.split(", |; | :", csv)
+y = csv.replace(';', ',').replace(':',',').split(',')
+print('y is:', type(y))
+# print(y.split(',')) # var Y is type string maar door comma's gescheden
+# print(type(y)) 
+# friends_list.append(y) 
+print(y)
+# print(friends_list)
 
-print(x)
-print()
+# print(type(friends_list)) # type list 
+# print(friends_list) # een lange list van een hele string.
