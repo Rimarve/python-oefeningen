@@ -1,19 +1,17 @@
-print('if elif else - Exercise')
-# Create a calculator which handles +,-,*,/ and outputs answer based on the mode/ operator used
-# Hint: use 3 separate inputs 
-# Bonus: Extend functionality with extra mode so it also does celsius to fahrenheit conversion
-# formula is: temp in C*9/5 + 32 = temp in f
 
-getal1 = input("Getal: ")
-operator = input("+,-,*,/? ")
-getal2 = input("Getal: ")
 
-if operator == "+":
-	print(float(getal1) + float(getal2))
-elif operator == "-":
-	print(float(getal1) - float(getal2))
-elif operator == "/":
-	print(float(getal1) / float(getal2))
-else:
-	print(getal1 * getal2)
+def bereken_gemiddelde(leeftijd):
 
+	if not leeftijd:
+		print("lege lijst")
+		return None
+	totaal = sum(leeftijd)
+	aantal = len(leeftijd)
+	gemiddelde = totaal / aantal
+	print(f"📊 Het gemiddelde van de leeftijden is: {gemiddelde:.2f} jaar")
+	return gemiddelde
+
+leeftijden = [25, -30, 22, 40, 35, 28, 27, 31, 29, 33]
+# bereken_gemiddelde(leeftijden)
+
+bereken_gemiddelde([])
