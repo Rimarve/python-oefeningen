@@ -1,12 +1,20 @@
 
 #find maximum of three numbers
-def max_of_twee(x, y):
+# def max_of_twee(x, y):
 
-	if x > y:
-		return x
-	return y
+# 	if x > y:
+# 		return x
+# 	return y
 
-print(max_of_twee(10,15))
+# print(max_of_twee(10,15))
+
+def som_van_nummers(lijst):
+	totaal = sum(lijst)	
+	return totaal
+
+nummers = [8, 2, 3, 0, 7]
+
+print(f"De som van alle nummers = {som_van_nummers(nummers)}")
 
 
 
