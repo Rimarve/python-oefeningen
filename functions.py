@@ -14,4 +14,5 @@ def bereken_gemiddelde(leeftijd):
 leeftijden = [25, -30, 22, 40, 35, 28, 27, 31, 29, 33]
 # bereken_gemiddelde(leeftijden)
 
-bereken_gemiddelde([])
+bereken_gemiddelde(leeftijden)
+
