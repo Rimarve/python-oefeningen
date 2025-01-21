@@ -1,4 +1,8 @@
 
+
+
+
+
 #find maximum of three numbers
 # def max_of_twee(x, y):
 
@@ -8,33 +12,33 @@
 
 # print(max_of_twee(10,15))
 
-def draai_om(zin):
-	txt = zin[::-1]
-	return  # je moet iets teruggeven anders krijg je none
+# def draai_om(zin):
+# 	txt = zin[::-1]
+# 	return  # je moet iets teruggeven anders krijg je none
 
-_input = "1234abcd"
+# _input = "1234abcd"
 
-print(draai_om(_input))
+# print(draai_om(_input))
 
-def som_van_nummers(lijst):
-	totaal = sum(lijst)	
-	return totaal
+# def som_van_nummers(lijst):
+# 	totaal = sum(lijst)	
+# 	return totaal
 
-nummers = [8, 2, 3, 0, 7]
+# nummers = [8, 2, 3, 0, 7]
 
-print(f"De som van alle nummers = {som_van_nummers(nummers)}")
-
-
-def vermenigvuldig(nummers):
-	totaal = 1
-	for i in nummers:
-		totaal *= i
-	return totaal
+# print(f"De som van alle nummers = {som_van_nummers(nummers)}")
 
 
-list1 = [8, 2, 3, -1, 7]
+# def vermenigvuldig(nummers):
+# 	totaal = 1
+# 	for i in nummers:
+# 		totaal *= i
+# 	return totaal
 
-print(f"Vermenigvuldigen van alle nummers = {(vermenigvuldig(list1))}")
+
+# list1 = [8, 2, 3, -1, 7]
+
+# print(f"Vermenigvuldigen van alle nummers = {(vermenigvuldig(list1))}")
 
 
 # def bereken_gemiddelde(leeftijd):
