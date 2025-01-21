@@ -1,4 +1,9 @@
-
+def bereken_factorial(getal):
+	factorial = 1
+	for i in range(1, getal+1):
+		factorial = factorial * i
+	return factorial
+print(bereken_factorial(23))
 
 
 
