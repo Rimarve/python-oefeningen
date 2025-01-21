@@ -1,10 +1,9 @@
 def check_range(getallen):
-	x = range(getallen)
-	for n in x:
-		print(n)
-
-reeks = 3
-print(check_range(reeks))
+	if getallen in range(3, 9):
+		print(f"is in the range {str(getallen)}")
+	else:
+		print("nummer zit er niet in")
+print(check_range(1))
 
 
 def bereken_factorial(getal):
