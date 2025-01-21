@@ -1,9 +1,18 @@
+def check_range(getallen):
+	x = range(getallen)
+	for n in x:
+		print(n)
+
+reeks = 3
+print(check_range(reeks))
+
+
 def bereken_factorial(getal):
 	factorial = 1
 	for i in range(1, getal+1):
 		factorial = factorial * i
 	return factorial
-print(bereken_factorial(23))
+print(f"factor = {bereken_factorial(23)}")
 
 
 
