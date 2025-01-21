@@ -1,3 +1,19 @@
+sample_string = "The quick Brown Fox"
+
+# print(sample_string.capitalize())
+
+def check_Upperlower(zin):
+	for i in zin:
+		# print(i)
+		if i.isupper() == True:
+			print(i)
+		else:
+			return False
+
+
+# sample_string = "The quick Brown Fox"
+check_Upperlower(sample_string)
+
 def check_range(getallen):
 	if getallen in range(3, 9):
 		print(f"is in the range {str(getallen)}")
