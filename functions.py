@@ -7,22 +7,26 @@
 # sample_string = "The quick Brown Fox"
 
 # # print(sample_string.capitalize())
-sample_string = "The quick Brown Fox"
+sample_string = "The quick Brown Fox AFsdga dAegfsadhASFdhASG"
 
 def check_Upperlower(zin):
+	hoofdletters = ""
 	for i in zin:
 		# print(i)
 		if i.isupper():
-			print(i)
+			# print(i)
+			# print(f"Dit zijn de hoofdletters: {i}")
+			hoofdletters += i
+	print(hoofdletters)
 
 
 check_Upperlower(sample_string)
 
-lijst = [0, 1, 2, 3, 4, 5]
-for i in lijst:
-	print(i, f"Dit is {i}")
+# lijst = [0, 1, 2, 3, 4, 5]
+# for i in lijst:
+# 	print(i, f"Dit is {i}")
 
-	
+
 # def check_range(getallen):
 # 	if getallen in range(3, 9):
 # 		print(f"is in the range {str(getallen)}")
