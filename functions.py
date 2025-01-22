@@ -1,24 +1,21 @@
-has_high_income = True
-has_good_credit = False
+# has_high_income = True
+# has_good_credit = False
 
-if has_high_income or has_good_credit:
-	print("Je mag een lening")
+# if has_high_income or has_good_credit:
+# 	print("Je mag een lening")
 
 # sample_string = "The quick Brown Fox"
 
 # # print(sample_string.capitalize())
 
-# def check_Upperlower(zin):
-# 	for i in zin:
-# 		# print(i)
-# 		if i.isupper() == True:
-# 			print(i)
-# 		else:
-# 			return False
+def check_Upperlower(zin):
+	for i in zin:
+		# print(i)
+		if i.isupper():
+			print(i)
 
-
-# sample_string = "The quick Brown Fox"
-# check_Upperlower(sample_string)
+sample_string = "The quick Brown Fox"
+check_Upperlower(sample_string)
 
 # def check_range(getallen):
 # 	if getallen in range(3, 9):
