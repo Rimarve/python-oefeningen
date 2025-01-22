@@ -1,3 +1,9 @@
+has_high_income = True
+has_good_credit = False
+
+if has_high_income or has_good_credit:
+	print("Je mag een lening")
+
 # sample_string = "The quick Brown Fox"
 
 # # print(sample_string.capitalize())
@@ -14,20 +20,20 @@
 # sample_string = "The quick Brown Fox"
 # check_Upperlower(sample_string)
 
-def check_range(getallen):
-	if getallen in range(3, 9):
-		print(f"is in the range {str(getallen)}")
-	else:
-		print("nummer zit er niet in")
-print(check_range(1))
+# def check_range(getallen):
+# 	if getallen in range(3, 9):
+# 		print(f"is in the range {str(getallen)}")
+# 	else:
+# 		print("nummer zit er niet in")
+# print(check_range(1))
 
 
-def bereken_factorial(getal):
-	factorial = 1
-	for i in range(1, getal+1):
-		factorial = factorial * i
-	return factorial
-print(f"factor = {bereken_factorial(23)}")
+# def bereken_factorial(getal):
+# 	factorial = 1
+# 	for i in range(1, getal+1):
+# 		factorial = factorial * i
+# 	return factorial
+# print(f"factor = {bereken_factorial(23)}")
 
 
 
