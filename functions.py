@@ -7,6 +7,7 @@
 # sample_string = "The quick Brown Fox"
 
 # # print(sample_string.capitalize())
+sample_string = "The quick Brown Fox"
 
 def check_Upperlower(zin):
 	for i in zin:
@@ -14,9 +15,14 @@ def check_Upperlower(zin):
 		if i.isupper():
 			print(i)
 
-sample_string = "The quick Brown Fox"
+
 check_Upperlower(sample_string)
 
+lijst = [0, 1, 2, 3, 4, 5]
+for i in lijst:
+	print(i, f"Dit is {i}")
+
+	
 # def check_range(getallen):
 # 	if getallen in range(3, 9):
 # 		print(f"is in the range {str(getallen)}")
