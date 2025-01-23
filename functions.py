@@ -1,12 +1,15 @@
 sample_list = [1,2,3,3,3,3,4,5]
-print(f"Lengte = {len(sample_list)}")
-sample_set = set(sample_list)
-print(sample_set)
+# print(f"Lengte = {len(sample_list)}")
+# sample_set = set(sample_list)
+# print(sample_set)
 
 def distinct_elements(lijst):
 	x = []
-	for i in lijst:
-		print(i)
+	for a in lijst:
+		print(a)
+		if a not in x:
+			x.append(a)
+			print(x)
 
 distinct_elements(sample_list)
 
