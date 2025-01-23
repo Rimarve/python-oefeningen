@@ -1,7 +1,14 @@
 sample_list = [1,2,3,3,3,3,4,5]
+print(f"Lengte = {len(sample_list)}")
+sample_set = set(sample_list)
+print(sample_set)
 
 def distinct_elements(lijst):
-	
+	x = []
+	for i in lijst:
+		print(i)
+
+distinct_elements(sample_list)
 
 
 # has_high_income = True
