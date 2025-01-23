@@ -1,3 +1,9 @@
+sample_list = [1,2,3,3,3,3,4,5]
+
+def distinct_elements(lijst):
+	
+
+
 # has_high_income = True
 # has_good_credit = False
 
@@ -7,20 +13,20 @@
 # sample_string = "The quick Brown Fox"
 
 # # print(sample_string.capitalize())
-sample_string = "The quick Brown Fox AFsdga dAegfsadhASFdhASG"
+# sample_string = "The quick Brown Fox AFsdga dAegfsadhASFdhASG"
 
-def check_Upperlower(zin):
-	hoofdletters = ""
-	for i in zin:
-		# print(i)
-		if i.isupper():
-			# print(i)
-			# print(f"Dit zijn de hoofdletters: {i}")
-			hoofdletters += i
-	print(hoofdletters)
+# def check_Upperlower(zin):
+# 	hoofdletters = ""
+# 	for i in zin:
+# 		# print(i)
+# 		if i.isupper():
+# 			# print(i)
+# 			# print(f"Dit zijn de hoofdletters: {i}")
+# 			hoofdletters += i
+# 	print(hoofdletters)
 
 
-check_Upperlower(sample_string)
+# check_Upperlower(sample_string)
 
 # lijst = [0, 1, 2, 3, 4, 5]
 # for i in lijst:
