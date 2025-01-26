@@ -9,7 +9,7 @@ def distinct_elements(lijst):
 		print(a)
 		if a not in x:
 			x.append(a)
-			print(x)
+			print(x s)
 
 distinct_elements(sample_list)
 
